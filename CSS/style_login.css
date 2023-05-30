@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(250, 172, 172);
+    background-image: url("/img/Colorful-Geometric-Simple-Background-Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainheading {
+    margin-left: 300px;
+    margin-right: 280px;
+    margin-bottom: 6px;
+    padding-left: 170px;
+    border-radius: 20px;
+    background-color: azure;
+    font-size: 60px;
+}
+
+#mydiv {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 280px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: url(/img/Facebook-logo.png), url(/img/Gmail_icon_2020.png), url(/img/instagram-logo-svg-vector-for-print.svg), url(/img/Twitter-logo.svg.png);
+    background-position: 150px 550px, 250px 560px, 330px 560px,400px 560px;
+    background-repeat: no-repeat;
+    background-size: 87px ,47px, 40.6px, 46.2px;
+}
+
+
+.mydiv2{
+    margin: 10px;
+}
+
+#loginheading {
+    margin-left: 220px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 1cm;
+}
+
+.nameandpass {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 200px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+
+#forgetpass{
+    font-family:cursive;
+    margin-left: 370px;
+    margin-top: 0px;
+}
+
+#button {
+    margin-top: 18px;
+    margin-left: 200px;
+    margin-right: 50px;
+    padding-top: 4px;
+    font-size: 1cm;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0px;
+    border: none;
+    border-bottom: 4px solid black;
+    width: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+}
+
+#usernameclass{
+    border: none;
+    border-bottom: 2px solid rgb(34, 29, 29);
+    margin-top: 15px;
+  font-size: .6cm;
+  color: rgb(146, 145, 145);
+   padding-right: 40px;
+   margin-left: 20px;
+   width: 80%;
+   background-image: url(/img/contact\ logo.png);
+   background-position: 1px 6px;
+   background-size: 21px;
+   background-repeat: no-repeat;
+}
+
+#passwordclass{
+    border: none;
+    border-bottom: 2px solid rgb(34, 29, 29);
+    margin-top: 15px;
+  font-size: .6cm;
+  color: rgb(146, 145, 145);
+   padding-right: 40px;
+   margin-left: 20px;
+   width: 80%;
+   background-image: url(/img/password\ logo.png);
+   background-position: 1px 6px;
+   background-size: 21px;
+   background-repeat: no-repeat;
+}
+    #hloginwith{
+        margin-left: 20px;
+        font-family:cursive;
+        font-size: 20px;
+    }
+    #haccount{
+        margin-top: 141px;
+        margin-left: 182px;
+        font-family: cursive;
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+
+    #hsignup{
+
+        margin-top: 1px;
+        margin-left: 260px;
+        font-family:cursive;
+        font-size: 20px;
+        border-radius: 8px;
+        cursor:pointer;
+    }
+    #hsignup:hover{
+
+        margin-top: 1px;
+        margin-left: 240px;
+        font-family:cursive;
+        font-size: 22px;
+        border-radius: 8px;
+        cursor:pointer;
+    }

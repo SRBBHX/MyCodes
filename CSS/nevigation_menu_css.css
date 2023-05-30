@@ -1,0 +1,36 @@
+#mylist {
+    overflow: auto;
+    background-color: rgb(48, 48, 48);
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+    list-style: none;
+    padding: 8px;
+    border-radius: px;
+
+}
+
+#mylist li a:hover { 
+
+background-color: rgb(0, 0, 0);
+color: antiquewhite;
+
+}
+
+#mylist li a {
+    float: left;
+    margin-left: 103px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22PX;
+    border: 0px solid red;
+    padding: 9px 12px 7px 10px;
+    border-radius: 33px;
+}
+
+#B1 {
+    background-color: aquamarine;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    border: 0px;
+}

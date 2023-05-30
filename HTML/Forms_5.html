@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" href="shree krishna.jpg">
+    <link rel="stylesheet" href="STYLE_form.css">
+</head>
+
+<body>
+    <link rel="icon" href="shree krishna.jpg">
+    <h1 id="myform"> Form filling setup</h1>
+    <form action="backend.php">
+        <div>
+            <label for="name" class="myclass"> Name    <strong> :</strong> </label>
+            <input type="text" name="my Name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email" class="myclass"> Email: </label>
+            <input type="text" name="my Email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="role" class="myclass"> Role: </label>
+            <input type="text" name="My  Role" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="mobile no." class="myclass">Mobile No.:</label>
+            <input type="number" name="my Number" id="mobile no.">
+        </div>
+        <br>
+        <div>
+            <label for="dob" class="myclass"> Date Of Birth:</label>
+            <input type="date" name="date of birth" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="eligibility" class="myclass"> Are you eligible?:</label>
+            <input type="checkbox" name="my eligibility" id="eligibility">
+        </div>
+        <br>
+        <div>
+            <label for="my gender" class="myclass"> My Gender:</label>
+            <div>
+                male<input type="radio" name="gender" id="my gender">
+            </div>
+
+            <div>
+                Female<input type="radio" name="gender" id="my gender">
+            </div>
+            <div>
+                Other<input type="radio" name="gender" id="my gender">
+            </div>
+
+        </div>
+        <div>
+            <label for="long text" class="myclass"> Something aboutself:</label>
+            <br>
+            <textarea id="long text" cols="40" rows="10"></textarea>
+
+        </div>
+        <div>
+            <label for="fevcolor" class="myclass">MY fevirate colour is.:</label>
+            <input type="color" name="mycolour" value="#000000" id="fevcolor"></input>
+        </div>
+        <div>
+            <label for="sumbit" class="myclass">For Sumbitation click here:</label>
+            <input type="submit" value="sumbit now" id="sumbit">
+        </div>
+        <br>
+        <div>
+            <label for="reset" class="myclass"> For reset the form click here:</label>
+            <input type="reset" value="reset now" id="reset">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
